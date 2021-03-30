@@ -260,12 +260,12 @@
         <div class="portfolio-wrapper">
           <h3 class="portfolio-subtitle">портфолио</h3>
           <h2 class="portfolio-title">Наши проекты</h2>
-          <button class="slider-button-prev"></button>
-          <button class="slider-button-next"></button>
+          <button class="portfolio-slider-button-prev"></button>
+          <button class="portfolio-slider-button-next"></button>
         </div>
         <div class="slider">
           <!-- Slider main container -->
-          <div class="swiper-container">
+          <div class="swiper-container portfolio-swiper-container">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -325,6 +325,64 @@
       <!-- /.container -->
     </div>
     <!-- /.portfolio -->
+    <div class="feedback">
+      <div class="container">
+        <h3 class="feedback-subtitle">Отзывы</h3>
+        <h2 class="feedback-title">Что говорят о нас</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper-container feedback-swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide feedback-swiper-slide">
+              <div class="feedback-swiper-slide-wrap">
+                <img
+                  src="img/feedback/Photo1.png"
+                  alt=""
+                  class="feedback-swiper-slide__img"
+                />
+                <h2 class="feedback-swiper-slide__title">Jaquon Hart</h2>
+                <h3 class="feedback-swiper-slide__subtitle">
+                  Вице-президент - компания Lizlle
+                </h3>
+              </div>
+              <span class="feedback-swiper-slide__text"
+                >«Их навыки и опыт в области пользовательского интерфейса /
+                пользовательского интерфейса были ключевыми для выявления
+                потенциальных проблемных моментов в наших бизнес-процессах,
+                которые они прекрасно исправили или оптимизировали».</span
+              >
+            </div>
+
+            <div class="swiper-slide feedback-swiper-slide">
+              <div class="feedback-swiper-slide-wrap">
+                <img
+                  src="img/feedback/Photo2.png"
+                  alt=""
+                  class="feedback-swiper-slide__img"
+                />
+                <h2 class="feedback-swiper-slide__title">Valdemar Forsberg</h2>
+                <h3 class="feedback-swiper-slide__subtitle">
+                  Основатель Digitac Finance
+                </h3>
+              </div>
+              <span class="feedback-swiper-slide__text"
+                >Ehya подтолкнул нас к мысли, выходящей за рамки наших
+                первоначальных возможностей и воображения, при этом гарантируя,
+                что дизайн и форма платформы постоянно корректируются на основе
+                данных.</span
+              >
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="feedback-slider-button-next"></div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.feedback -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

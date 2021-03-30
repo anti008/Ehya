@@ -1,4 +1,5 @@
 .portfolio
+  padding-bottom: 150px
   &-wrapper
     position: relative
   &-subtitle
@@ -17,6 +18,28 @@
     font-weight: bold
     font-size: 36px
     line-height: 48px
+  &-slider
+    &-button
+      &-prev
+        background-image: url(../img/portfolio/arrow-left.svg)
+        width: 56px
+        height: 56px
+        border: none
+        background-repeat: no-repeat
+        background-position: center
+        position: absolute
+        top: 0
+        right: 56px
+      &-next
+        background-image: url(../img/portfolio/arrow-right.svg)
+        width: 56px
+        height: 56px
+        border: none
+        background-repeat: no-repeat
+        background-position: center
+        position: absolute
+        top: 0
+        right: 0
 .swiper
   &-wrapper
     position: relative
@@ -24,28 +47,6 @@
     &__img
       width: 360px
       height: 400px
-.slider
-  &-button
-    &-prev
-      background-image: url(../img/portfolio/arrow-left.svg)
-      width: 56px
-      height: 56px
-      border: none
-      background-repeat: no-repeat
-      background-position: center
-      position: absolute
-      top: 0
-      right: 56px
-    &-next
-      background-image: url(../img/portfolio/arrow-right.svg)
-      width: 56px
-      height: 56px
-      border: none
-      background-repeat: no-repeat
-      background-position: center
-      position: absolute
-      top: 0
-      right: 0
 
 
     

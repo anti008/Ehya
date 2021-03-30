@@ -1,22 +1,24 @@
-const swiper = new Swiper(".swiper-container", {
+const swiperSliderPortfolio = new Swiper(".portfolio-swiper-container", {
   // Optional parameters
   loop: true,
   spaceBetween: 30,
   slidesPerView: 3,
 
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
+  // Navigation arrows
+  navigation: {
+    nextEl: ".portfolio-slider-button-next",
+    prevEl: ".portfolio-slider-button-prev",
   },
+});
+
+const swiperSliderFeedback = new Swiper(".feedback-swiper-container", {
+  // Optional parameters
+  loop: true,
+  spaceBetween: 30,
+  slidesPerView: 2,
 
   // Navigation arrows
   navigation: {
-    nextEl: ".slider-button-next",
-    prevEl: ".slider-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
+    nextEl: ".feedback-slider-button-next",
   },
 });
