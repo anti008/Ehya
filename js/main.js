@@ -1,6 +1,6 @@
 const swiperSliderPortfolio = new Swiper(".portfolio-swiper-container", {
   // Optional parameters
-  loop: true,
+  loop: false,
   spaceBetween: 30,
   slidesPerView: 3,
 
