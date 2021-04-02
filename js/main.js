@@ -48,3 +48,11 @@ function closeModal(event) {
   modalOverlay.removeClass("modal__overlay--visible");
   modalDialog.removeClass("modal__dialog--visible");
 }
+
+var menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", function () {
+  console.log("Клик по кнопке");
+  document
+    .querySelector(".header-menu-d766")
+    .classList.toggle("header-menu-visible");
+});

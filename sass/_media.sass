@@ -74,6 +74,9 @@
       &__card
         max-width: 300px
   .feedback
+    &-footer
+      &__button
+        display: block
     &-swiper
       &-slide
         &-wrap
@@ -100,24 +103,146 @@
   .footer
     &-blok
       flex-basis: 22%
-      margin-left: 15px 
+      margin-left: 15px
+      margin-bottom: 40px
+      order: 1
       &-first
         margin-bottom: 40px
         display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
         flex-wrap: wrap
+        text-align: center
         max-width: 100%
         width: 100%
+        order: 2
       &__link
-        margin-right: 100px
+        margin: 0
+        margin-bottom: 20px
       &__text
         width: 70%
         max-width: 70%
       &__wrap
-        width: 100%
+        width: 70%
         justify-content: space-evenly
+    &-like
+      order: 3
 @media ( max-width: 767px )
   .container
+    max-width: 576px
+    width: 92%
+  .header
+    &-menu
+      &-d767
+        display: none
+      &-visible
+        display: flex
+  .menu
+    &-button
+      &-m767
+        display: block
+        display: flex
+        width: 16px
+        height: 11px
+        padding: 0
+        align-items: center
+        justify-content: space-between
+        flex-direction: column
+        border: none
+        background-color: #fff
+        cursor: pointer
+  .hero
+    &-left
+      &__button
+        width: 90%
+  .partner
+    &-wrapper
+      &__partner
+        &-item
+          width: 100px
+        &-img
+          width: 100px
+  .job
+    &-wrapper
+      &__card
+        max-width: 100%
+  .feedback
+    &-swiper
+      &-slide
+        width: 0
+  .swiper
+    &-slide
+      width: 100%
+  .social-media
+    &__card
+      flex-basis: 45%
+      margin-bottom: 30px
+      &-text
+        height: 70px
+  .footer
+    &-blok
+      flex-basis: 45%  
 @media ( max-width: 576px  )
   .container
+    max-width: 576px
+    width: 88%
+  .d-mobile
+    display: none
+  .hero
+    &-wrapper
+      flex-direction: column
+    &-left
+      flex-basis: 100%
+      text-align: center
+      justify-content: center
+      order: 1
+      &__title
+        width: 70%
+        margin: 0 auto 40px
+      &__subtitle
+        width: 80%
+        margin: 0 auto 40px
+      &__button
+        width: 80%
+        &-bottom
+          position: absolute
+          top: 1400px
+          right: 50%
+          transform: translateX(50%)
+    &-right
+      overflow: visible
+      object-fit: contain
+      order: 2
+      z-index: 20
+  .partner
+    margin-top: 600px
+    &-wrapper
+      text-align: center
+      &__title
+        flex-basis: 80%
+        margin: 0 auto 30px
+      &__text
+        flex-basis: 80%
+        margin: 0 auto 30px
+      &__partner
+        flex-basis: 60%
+        margin: 0 auto 30px
+        flex-wrap: wrap
+        &-item
+          margin-bottom: 20px
+  .job
+    &-wrapper
+      &__subtitle
+        flex-basis: 70%
+        margin: 0 auto 30px
+      &__card
+        &-img
+          margin: 0 0 20px
+        &-title
+          width: 100%
+          margin-bottom: 20px
+        &-text
+          margin: 0
 @media ( max-width: 480px  )
   .container

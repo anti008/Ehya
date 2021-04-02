@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,6 +26,59 @@
           <a href="#" class="header-logo">
             <img src="img/Logo.png" alt="Logo: Ehya" class="header-logo__img" />
           </a>
+          <ul class="header-menu header-menu-d767">
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="#">Домой</a>
+            </li>
+            <li
+              class="header-menu__item header-menu__item header-submenu__link"
+            >
+              <a class="header-menu__link" href="#">Лэндинги</a>
+              <a class="header-menu__link-arrow" href="#">
+                <img
+                  class="header-menu__item-arrow"
+                  src="img/angle-down.png"
+                  alt=""
+                />
+              </a>
+              <ul class="header-submenu">
+                <li class="header-submenu__item"><a href="">Заглушка</a></li>
+                <li class="header-submenu__item"><a href="">Заглушка</a></li>
+                <li class="header-submenu__item"><a href="">Заглушка</a></li>
+              </ul>
+            </li>
+            <li
+              class="header-menu__item header-menu__item header-submenu__link"
+            >
+              <a class="header-menu__link" href="#">Страницы</a>
+              <a class="header-menu__link-arrow" href="#">
+                <img
+                  class="header-menu__item-arrow"
+                  src="img/angle-down.png"
+                  alt=""
+                />
+              </a>
+              <ul class="header-submenu">
+                <li class="header-submenu__item"><a href="">Заглушка</a></li>
+                <li class="header-submenu__item"><a href="">Заглушка</a></li>
+                <li class="header-submenu__item"><a href="">Заглушка</a></li>
+              </ul>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="#">Помощь</a>
+            </li>
+          </ul>
+          <button data-toggle="modal" class="header-button header-menu-d767">
+            Получить
+          </button>
+          <button class="menu-button menu-button-m767">
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+          </button>
+        </div>
+        <!-- /.header-wrapp -->
+        <div class="header-menu header-menu-d766">
           <ul class="header-menu">
             <li class="header-menu__item">
               <a class="header-menu__link" href="#">Домой</a>
@@ -70,7 +123,6 @@
           </ul>
           <button data-toggle="modal" class="header-button">Получить</button>
         </div>
-        <!-- /.header-wrapp -->
       </div>
       <!-- /.container -->
     </header>
@@ -163,7 +215,7 @@
               />
             </a>
             <a
-              class="partner-wrapper__partner-item"
+              class="partner-wrapper__partner-item d-mobile"
               href="https://www.airbnb.ru/"
             >
               <img
@@ -595,7 +647,7 @@
               </li>
               <li class="footer-blok__nav-item">
                 <a class="footer-blok__nav-item__link" href=""
-                  >Политика конфиденциальности</a
+                  >Privacy Policy</a
                 >
               </li>
               <li class="footer-blok__nav-item">
